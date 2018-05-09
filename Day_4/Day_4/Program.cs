@@ -69,33 +69,70 @@ namespace Day_4
                 {
                     Console.WriteLine("cetrsturis");
                 }
+                else
+                {
+                    if (mainigais4 == 5)
+                    {
+                        Console.WriteLine("piecsturis");
+                    }
                     else
                     {
-                        if (mainigais4 == 5)
-                        {
-                         Console.WriteLine("piecsturis");
-                        }
-                        else
-                        {
-                            if (mainigais4 == 6)
-                            {
-                             Console.WriteLine("sesturis");
-                            }
-                            
-                                
-                                
-                         }
-
-
-
+                        Console.WriteLine("nesaprotu");
                     }
 
-                
+                }
 
-            
-               
-               
-                  
+
+
+            }
+
+            switch (mainigais4)
+            {
+                case 7:
+                    Console.WriteLine("septinsturis");
+                    break;
+                case 8:
+                    Console.WriteLine("astonsturis");
+                    break;
+                default:
+                    Console.WriteLine("ko gribi");
+                    break;
+            }
+
+            int mainigais5;
+            Console.WriteLine();
+            string vards = Console.ReadLine();
+
+            mainigais5 = Convert.ToInt16(vards);
+
+            switch (mainigais5)
+            {
+                case 1:
+                    Console.WriteLine("1$ george");
+                    break;
+                case 2:
+                    Console.WriteLine("$2 thomas");
+                    break;
+                case 5:
+                    Console.WriteLine("$5 abraham");
+                    break;
+                case 10:
+                    Console.WriteLine("$10 alexander");
+                    break;
+                case 20:
+                    Console.WriteLine("$20 andrew");
+                    break;
+                case 50:
+                    Console.WriteLine("$50 ulysses");
+                    break;
+                case 100:
+                    Console.WriteLine("$100 benjamin");
+                    break;
+                default:
+                    Console.WriteLine("nesakrit");
+                    break;
+
+                    
             }
             Console.ReadLine();
         } 
