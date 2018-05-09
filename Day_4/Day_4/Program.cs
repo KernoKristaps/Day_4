@@ -31,6 +31,8 @@ namespace Day_4
             }
             
 
+
+
             int mainigais3;
             Console.WriteLine();
             string cipars = Console.ReadLine();
@@ -46,8 +48,59 @@ namespace Day_4
             {
                 Console.WriteLine("##");
             }
+            
+
+
+
+            int mainigais4;
+            Console.WriteLine();
+            string sturis = Console.ReadLine();
+
+            mainigais4 = Convert.ToInt16(sturis);
+
+
+            if (mainigais4 == 3)
+            {
+                Console.WriteLine("trijsturis");
+            }
+            else
+            {
+                if (mainigais4 == 4)
+                {
+                    Console.WriteLine("cetrsturis");
+                }
+                    else
+                    {
+                        if (mainigais4 == 5)
+                        {
+                         Console.WriteLine("piecsturis");
+                        }
+                        else
+                        {
+                            if (mainigais4 == 6)
+                            {
+                             Console.WriteLine("sesturis");
+                            }
+                            
+                                
+                                
+                         }
+
+
+
+                    }
+
+                
+
+            
+               
+               
+                  
+            }
             Console.ReadLine();
         } 
+
+
     }   
     
     
