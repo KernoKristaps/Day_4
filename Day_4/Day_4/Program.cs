@@ -10,6 +10,22 @@ namespace Day_4
     {
         static void Main(string[] args)
         {
-        }
-    }
+
+            
+            string mainigais = "po labi";
+
+            if (mainigais == "pa labi")
+            {
+                Console.WriteLine("vienads");
+            }
+            else
+            {
+                Console.WriteLine("nav vienads");
+            }
+            Console.ReadLine();
+
+        } 
+    }   
+    
+    
 }
